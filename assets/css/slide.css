@@ -1,0 +1,304 @@
+.slider-section {
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.sp-slider {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+.flow-slide {
+  width: 100vw;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-21%);
+}
+
+.slide {
+  min-width: calc(100% / 2);
+  box-sizing: border-box;
+  padding: 10px;
+  padding-inline: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.slide-caption h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.slide-caption p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.8);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.slider-btn:hover {
+  background-color: #ddd;
+}
+
+.btn-left {
+  left: 24.5%;
+}
+
+.btn-right {
+  right: 23.5%;
+}
+
+#sliderWrapper {
+  cursor: grab;
+  user-select: none;
+}
+
+/* sp slide */
+.sp-slider {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+.slider-window {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.sp-slide {
+  min-width: 100%;
+  padding: 10px;
+}
+
+.sp-slide img {
+  width: 88%;
+  display: block;
+  margin: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+/*sp service slide*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 3));
+  }
+}
+
+.sp-service-content {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-slider {
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  cursor: grab;
+  user-select: none;
+}
+
+.service-slider .slide-track {
+  gap: 30px;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250px * 10);
+}
+
+.service-slide-ele {
+  position: relative;
+  width: 360px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2FAFF;
+  box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.2), 3px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-slide-ele h2 {
+  position: absolute;
+  top: 14%;
+  left: 16%;
+  text-shadow: 2px 2px 2px #fcfafa;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.service-slide-ele img {
+  width: 83%;
+  margin-top: 35px;
+  height: auto;
+}
+
+.service-slide-ele h3 {
+  width: 83%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .btn-left {
+    left: 10px;
+  }
+  
+  .btn-right {
+    right: 10px;
+  }
+  
+  .slide {
+    min-width: 100%;
+    padding-inline: 15px;
+  }
+  
+  .service-slider .slide-track {
+    gap: 20px;
+  }
+  
+  .service-slide-ele {
+    width: 300px;
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    padding-inline: 10px;
+  }
+
+  .service-slide-ele {
+    width: 280px;
+    min-height: 220px;
+  }
+
+  .service-slide-ele h2 {
+    font-size: 20px;
+  }
+
+  .service-slide-ele h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .slide {
+    padding-inline: 8px;
+  }
+
+  .service-slide-ele {
+    width: 260px;
+    min-height: 200px;
+  }
+
+  .service-slide-ele h2 {
+    font-size: 18px;
+  }
+
+  .service-slide-ele h3 {
+    font-size: 12px;
+  }
+
+  .arrow {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .slide {
+    padding-inline: 5px;
+  }
+
+  .service-slide-ele {
+    width: 240px;
+    min-height: 180px;
+  }
+
+  .service-slide-ele h2 {
+    font-size: 16px;
+  }
+
+  .service-slide-ele h3 {
+    font-size: 11px;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,185 @@
+@media (max-width: 1226px) {
+  .pc-footer {
+    display: none;
+  }
+  .sp {
+    display: block;
+    position: relative;
+  }
+  .sp-footer-icon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    right: 2%;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    padding-inline: 5%; 
+  }
+
+  .service-content {
+   display: none;
+  }
+  .sp-service-content {
+    display: block;
+  }
+  .service-ele {
+    width: 100%; 
+    min-height: auto; 
+  }
+
+  .service-ele h2 {
+    font-size: 25px; 
+  }
+
+  .service-ele h3 {
+    font-size: 20px; 
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 30px; 
+    line-height: 45px;
+  }
+
+  .info-content {
+    padding: 40px 15px; 
+  }
+
+  .info-content-ele .date {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .info-content-ele .title {
+    font-size: 14px;
+  }
+
+  .service-content {
+    gap: 20px;
+  }
+  .flow-slide {
+    display: none;
+  }
+  .sp-slider {
+    display: block;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 35px;
+  }
+
+  .service-ele h2 {
+    font-size: 18px;
+  }
+
+  .service-ele h3 {
+    font-size: 12px;
+  }
+
+  .flow {
+    padding: 40px 0;
+  }
+
+  .flow-title div {
+    width: 20px;
+    height: 2px;
+  }
+
+  .flow-title h3 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .sp-footer-logo {
+    font-size: 35px;
+  }
+  .sp-footer-links a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .section-title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .info-content {
+    padding: 30px 10px;
+  }
+
+  .info-content-ele {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .info-content-ele .date {
+    font-size: 14px;
+    margin-right: 0;
+  }
+
+  .info-content-ele .title {
+    font-size: 13px;
+  }
+
+  .service-ele h2 {
+    font-size: 16px;
+  }
+
+  .service-ele h3 {
+    font-size: 11px;
+  }
+
+  .sp-footer-logo {
+    font-size: 30px;
+  }
+
+  .sp-footer-links a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .info-content {
+    padding: 25px 8px;
+  }
+
+  .info-content-ele .date {
+    font-size: 12px;
+  }
+
+  .info-content-ele .title {
+    font-size: 12px;
+  }
+
+  .service-ele h2 {
+    font-size: 15px;
+  }
+
+  .service-ele h3 {
+    font-size: 10px;
+  }
+
+  .sp-footer-logo {
+    font-size: 28px;
+  }
+
+  .sp-footer-links a {
+    font-size: 14px;
+  }
+}
+

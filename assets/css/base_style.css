@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "IPAexGothic, IPAexMincho;";
+    src: url("./ipaexm.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "IPAexGothic, IPAexMincho;";
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-width: none;
+    /* height: 100vh; */
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #162143;
+}
+
+a {
+    color: white;
+}
