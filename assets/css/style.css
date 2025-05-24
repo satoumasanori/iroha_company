@@ -256,6 +256,10 @@
   margin-bottom: 20px;
 }
 
+.footer-logo a {
+  text-decoration: none;
+}
+
 .footer-text {
   width: 100%;
   display: flex;
@@ -314,8 +318,10 @@
 }
 
 .logo-part {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding-top: 50px;
   padding-top: 5%;
 }
@@ -324,11 +330,13 @@
   font-size: 50px;
   font-weight: bold;
   color: white;
-  padding-right: 20%;
+}
+
+.sp-footer-logo a {
+  text-decoration: none;
 }
 
 .sp-footer-links {
-  width: 270px;
   display: flex;
   flex-direction: column;
   font-size: 25px;

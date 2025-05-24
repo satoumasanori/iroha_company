@@ -209,11 +209,6 @@
   }
 }
 
-@media (max-width: 390px) {
-  .sp-footer-logo {
-    margin-left: 50px;
-  }
-}
 
 @media (max-width: 360px) {
   .menu-left ul li {

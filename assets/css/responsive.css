@@ -2,10 +2,12 @@
   .pc-footer {
     display: none;
   }
+
   .sp {
     display: block;
     position: relative;
   }
+
   .sp-footer-icon {
     display: flex;
     flex-direction: column;
@@ -14,40 +16,43 @@
     right: 2%;
   }
 }
+
 @media (max-width: 1024px) {
   .container {
-    padding-inline: 5%; 
+    padding-inline: 5%;
   }
 
   .service-content {
-   display: none;
+    display: none;
   }
+
   .sp-service-content {
     display: block;
   }
+
   .service-ele {
-    width: 100%; 
-    min-height: auto; 
+    width: 100%;
+    min-height: auto;
   }
 
   .service-ele h2 {
-    font-size: 25px; 
+    font-size: 25px;
   }
 
   .service-ele h3 {
-    font-size: 20px; 
+    font-size: 20px;
   }
-  
+
 }
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 30px; 
+    font-size: 30px;
     line-height: 45px;
   }
 
   .info-content {
-    padding: 40px 15px; 
+    padding: 40px 15px;
   }
 
   .info-content-ele .date {
@@ -62,13 +67,39 @@
   .service-content {
     gap: 20px;
   }
+
   .flow-slide {
     display: none;
   }
+
   .sp-slider {
     display: block;
   }
 
+  .flow {
+    padding: 40px 30px;
+  }
+
+  .flow-title {
+    padding-inline: 40px;
+    text-align: center;
+  }
+
+  .flow-title h3 br {
+    display: none;
+  }
+   .sp-footer-logo {
+    font-size: 33px;
+  }
+
+  .sp-footer-links a {
+    font-size: 20px;
+  }
+
+  .sp-footer-icon {
+    top: 60%;
+    right: 2%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -86,10 +117,6 @@
     font-size: 12px;
   }
 
-  .flow {
-    padding: 40px 0;
-  }
-
   .flow-title div {
     width: 20px;
     height: 2px;
@@ -99,11 +126,17 @@
     font-size: 14px;
     line-height: 25px;
   }
-  .sp-footer-logo {
-    font-size: 35px;
+
+  .flow-title h3 br {
+    display: none;
   }
+
+  .sp-footer-logo {
+    font-size: 25px;
+  }
+
   .sp-footer-links a {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -182,4 +215,3 @@
     font-size: 14px;
   }
 }
-
